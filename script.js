@@ -5,7 +5,7 @@ const taskList = document.getElementById('taskList');
 const titulo = document.getElementById('titulo');
 
 let nome = prompt("Qual o seu nome?")
-tarefa.focus(;)
+tarefa.focus()
 titulo.innerHTML = `Lista de tarefa: ${nome}`;
 
 // acompanha o evento de clque do botão adicionar tarefa
